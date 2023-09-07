@@ -19,16 +19,29 @@ Semmi, a termék még nem létezik
 + Osztás
 
 # A rendszerre vonatkozó szabályok
-+ A web felület szabványos eszközökkel készül (html/css/javascript).
-+ A képek jpeg és png formátumúak lesznek.
+- A web felület szabványos eszközökkel készül
+  - html
+  - css
+  - javascript 
+- A képek jpeg és png formátumúak lesznek.
+- Személyes adatok védelme
+  - Kötelező betartani az adatvédelmi szabályokat és jogszabályokat, mint például az európai GDPR-t
 
 # Követelménylista
-1. Könnyen üzemeltethető rendszer
+- Könnyen üzemeltethető rendszer
   - A rendszernek rendelkeznie kell egy felhasználóbarát grafikus felülettel vagy parancssori interfésszel, amely egyszerű és intuitív használatot tesz lehetővé anélkül, hogy a felhasználóknak részletes szakértelemre lenne szükségük.
-3. Használati útmutató
+- Használati útmutató
   - Felhasználóbarát leírásokkal és segítségnyújtással kell rendelkeznie, hogy a felhasználók könnyen megértsék a funkciókat és a használatot.
-4. Reszponzív dizájn ...
-5. Három szerepkör kezelése (admin, regisztrált, vendég)
-  - admin
-  - regisztrált
-  - vendég
+- Reszponzív dizájn ...
+- Felhasználói hozzáférési jogosultságok kezelése
+  - Biztosítani, hogy csak a megfelelő jogosultságokkal rendelkező felhasználók férhessenek hozzá bizonyos funkciókhoz vagy adatokhoz
+  - Három szerepkör kezelése (admin, regisztrált, vendég)
+    - admin
+    - regisztrált
+    - vendég
+- Kompatibilitás és böngészőtámogatás
+  - Az alkalmazásnak kompatibilisnek kell lennie a különböző webböngészőkkel, hogy minél szélesebb körű felhasználói bázist szolgálhasson ki.
+- Hibakezelés és hibajelentés
+  - Az alkalmazásnak képesnek kell lennie a hibákat kezelni és értesíteni a felhasználókat, ha probléma merül fel.
+  - A hibákról való értesítéseknek informatívnak és hasznosnak kell lenniük a fejlesztők és az üzemeltetők számára.
+
