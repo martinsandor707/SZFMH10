@@ -18,3 +18,6 @@ Semmi, a termék még nem létezik
 + Szorzás
 + Osztás
 
+# A rendszerre vonatkozó szabályok
++ A web felület szabványos eszközökkel készül (html/css/javascript).
++ A képek jpeg és png formátumúak lesznek.
