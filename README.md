@@ -8,14 +8,13 @@ A tudományos kutatások kidolgozásánál megjelenő számítási műveletek el
 A kutatások előrehaladtának felgyorsítása érdekében célunk egy autómatizált rendszert kialakítani ami szignifikánsan kevesebb embert igényel ugyan azon műveletek elvégzése és leellenőrzése érdekében. Ezt a két folyamatot egységesíteni kívánjuk egy applikációban. Egyetlen felhasználó akár 10 műveletet is eltudjon végezni 1 percen belül. Mindezt olyan módon, hogy az eredmények teljes mértékben helyesnek bizonyosuljanak és ne okozzanak tévedést a kutatás során.
 
 # Eddigi funkciók
-Semmi, nulláról írjuk lol
+Semmi, a termék még nem létezik
 
 # Tervezett funkciók
 
 + Egyszerű UI
-+ 4 Alapművelet
-+ Egész javascriptben
-
-# Egyéni TODO:
-Mi a javascript?
++ Összeadás
++ Kivonás
++ Szorzás
++ Osztás
 
