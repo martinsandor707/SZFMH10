@@ -21,3 +21,14 @@ Semmi, a termék még nem létezik
 # A rendszerre vonatkozó szabályok
 + A web felület szabványos eszközökkel készül (html/css/javascript).
 + A képek jpeg és png formátumúak lesznek.
+
+# Követelménylista
+1. Könnyen üzemeltethető rendszer
+  - A rendszernek rendelkeznie kell egy felhasználóbarát grafikus felülettel vagy parancssori interfésszel, amely egyszerű és intuitív használatot tesz lehetővé anélkül, hogy a felhasználóknak részletes szakértelemre lenne szükségük.
+3. Használati útmutató
+  - Felhasználóbarát leírásokkal és segítségnyújtással kell rendelkeznie, hogy a felhasználók könnyen megértsék a funkciókat és a használatot.
+4. Reszponzív dizájn ...
+5. Három szerepkör kezelése (admin, regisztrált, vendég)
+  - admin
+  - regisztrált
+  - vendég
