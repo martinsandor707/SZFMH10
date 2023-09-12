@@ -8,7 +8,14 @@ A tudományos kutatások kidolgozásánál megjelenő számítási műveletek el
 A kutatások előrehaladtának felgyorsítása érdekében célunk egy autómatizált rendszert kialakítani ami szignifikánsan kevesebb embert igényel ugyan azon műveletek elvégzése és leellenőrzése érdekében. Ezt a két folyamatot egységesíteni kívánjuk egy applikációban. Egyetlen felhasználó akár 10 műveletet is eltudjon végezni 1 percen belül. Mindezt olyan módon, hogy az eredmények teljes mértékben helyesnek bizonyosuljanak és ne okozzanak tévedést a kutatás során.
 
 # Eddigi funkciók
-Semmi, a termék még nem létezik
+Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása biztosítja az alábbi folyamatokat:
++ Nem létező, tehát a lehető legegyszerűbb kezelőfelület
++ Kézzel, mechanikus módon elvégzett számítások
++ Csökkentett hibázási lehetőség az ellenőrző bizottság jelenlétének hála
++ A felhasználó matematikai tudásához kötötten elvégezhető műveletek
++ Korábbi számítások visszakeresésének ineffektív módja idő és papír függvényében
++ Hosszadalmas ellenőrzési folyamat
++ Lehetséges szükségtelen fennakadások kutatók és az ellenőrző bizottság a probléma egyéni megközelítéséből fakadóan
 
 # Tervezett funkciók
 
@@ -17,6 +24,11 @@ Semmi, a termék még nem létezik
 + Kivonás
 + Szorzás
 + Osztás
++ A felhasználó csupán a számok beírásával és kattintással képes legyen elvégezni a fenti műveleteket
++ A fenti műveletek hibátlan elvégzése feltéve, hogy a számok mérete nem haladja meg a rendszer kapacitását
++ Legfeljebb 12 bájt pontossággal számok ábrázolása, és velük műveletek elvégzése
++ Lehetőség a felhasználóknak regisztrációra extra funkciók eléréséhez
++ Regisztrált felhasználóknak korábbi számítások és eredményük elmentése gyorsítótárba 
 
 # A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készül
