@@ -45,3 +45,10 @@ Semmi, a termék még nem létezik
   - Az alkalmazásnak képesnek kell lennie a hibákat kezelni és értesíteni a felhasználókat, ha probléma merül fel.
   - A hibákról való értesítéseknek informatívnak és hasznosnak kell lenniük a fejlesztők és az üzemeltetők számára.
 
+# Fogalomszótár
+
+- Művelet: Egy függvény, ami két számot képez egy számmá.
+- Magasabb rendű művelet: A műveletek sorrendjét határozza meg.
+- Gomb: A GUI egy építőeleme, amivel interakcióba lehet lépni a számológéppel.
+- Kijelző: A GUI egy építőelem, ahol a pillanatnyi számolás jelenik meg.
+- Törlés: Egy művelet, amivel a számolás utolsó karakterét tudjuk eltűntetni.
