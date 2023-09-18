@@ -1,13 +1,15 @@
 # SZFMH10
 Simple calculator javascript
 
-# Jelenlegi helyzet 
+# Követelményspecifikáció
+
+## Jelenlegi helyzet 
 A tudományos kutatások kidolgozásánál megjelenő számítási műveletek elvégzésére papír illetve ceruza áll csupán rendelkezésre. A ceruzát minden használat előtt ki kell hegyezni, a papírt pedig leemelni a szekrény felső polcáról. A számítások során fejben vannak elvégezve a műveletek, esetleges piszkozat számítások felhasználásával. A műveletek elvégzését követően a kiszámolt eredmények az eredeti adatokkal együtt elkerülnek egy ellenőrző bizottsághoz akik ismételten kiszámolják a műveletekhez tartozó eredményeket. Amennyiben nincs eltérés az elsőnek számolt és az ellenőrzőbizottság álltal számolt eredmények között, a számítást sikeresnek tekinthetjük.
 
-# Vágyálom rendszer 
+## Vágyálom rendszer 
 A kutatások előrehaladtának felgyorsítása érdekében célunk egy autómatizált rendszert kialakítani ami szignifikánsan kevesebb embert igényel ugyan azon műveletek elvégzése és leellenőrzése érdekében. Ezt a két folyamatot egységesíteni kívánjuk egy applikációban. Egyetlen felhasználó akár 10 műveletet is eltudjon végezni 1 percen belül. Mindezt olyan módon, hogy az eredmények teljes mértékben helyesnek bizonyosuljanak és ne okozzanak tévedést a kutatás során.
 
-# Eddigi funkciók
+## Eddigi funkciók
 Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása biztosítja az alábbi folyamatokat:
 + Nem létező, tehát a lehető legegyszerűbb kezelőfelület
 + Kézzel, mechanikus módon elvégzett számítások
@@ -17,7 +19,7 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 + Hosszadalmas ellenőrzési folyamat
 + Lehetséges szükségtelen fennakadások kutatók és az ellenőrző bizottság a probléma egyéni megközelítéséből fakadóan
 
-# Tervezett funkciók
+## Tervezett funkciók
 
 + Egyszerű UI
 + Összeadás
@@ -30,7 +32,7 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 + Lehetőség a felhasználóknak regisztrációra extra funkciók eléréséhez
 + Regisztrált felhasználóknak korábbi számítások és eredményük elmentése gyorsítótárba 
 
-# A rendszerre vonatkozó szabályok
+## A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készül
   - html
   - css
@@ -39,7 +41,7 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 - Személyes adatok védelme
   - Kötelező betartani az adatvédelmi szabályokat és jogszabályokat, mint például az európai GDPR-t
 
-# Követelménylista
+## Követelménylista
 - Könnyen üzemeltethető rendszer
   - A rendszernek rendelkeznie kell egy felhasználóbarát grafikus felülettel vagy parancssori interfésszel, amely egyszerű és intuitív használatot tesz lehetővé anélkül, hogy a felhasználóknak részletes szakértelemre lenne szükségük.
 - Használati útmutató
@@ -57,7 +59,7 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
   - Az alkalmazásnak képesnek kell lennie a hibákat kezelni és értesíteni a felhasználókat, ha probléma merül fel.
   - A hibákról való értesítéseknek informatívnak és hasznosnak kell lenniük a fejlesztők és az üzemeltetők számára.
 
-# Fogalomszótár
+## Fogalomszótár
 
 - Művelet: Egy függvény, ami két számot képez egy számmá.
 - Összeadás: A legalapvetőbb művelet az összeadás, amelyben a tagokat összeadandóknak míg az eredményt összegnek nevezzük. Az összeadás jele a + (plusz jel). 
@@ -72,3 +74,17 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 - Gomb: A GUI egy építőeleme, amivel interakcióba lehet lépni a számológéppel.
 - Kijelző: A GUI egy építőelem, ahol a pillanatnyi számolás jelenik meg.
 - Törlés: Egy művelet, amivel a számolás utolsó karakterét tudjuk eltűntetni.
+
+# Funkcionális specifikáció
+
+## Rendszer céljai
+- Adott műveletsor elvégzése matematikai szabályoknak megfelelően.
+- Összeadás, kivonás, szorzás és osztás.
+- Zárójelek használatának értelmezése.
+- A számolási előzmény tárolása és megjelenítése.
+- Ha esetleg hibásan ütötte be a felhasználó a számolást, akkor az utolsó karakter törlése.
+- Ha a felhasználó rányom az = gombra, akkor a számológép kiértékeli a matematika kifejezést
+  - Hiba esetén jelez
+  - Helyes kifejezés esetén megadja az értéket
+  - Ezek után a kifejezés értéke mentésre kerül a historyba
+  - Minden egyes újraindítás után a history nullázódik
