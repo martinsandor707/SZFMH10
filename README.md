@@ -122,3 +122,19 @@ A rendszernek NEM célja az alábbiak biztosítása:
 - 4 alapművelet és az "=" jel
 - Számolási előzmények jobb oldalt, folyamatosan frissül
 - TODO: Kép, amikor már van kész gui xd
+
+## Forgatókönyv
+
+Egy tipikus folyamat amin a felhasználó végigmegy:
+1. Weblap megnyitása
+2. Bejelentkezés
+3. History használatával kinyerni egy korábbi számolás eredményeit
+4. Folytatni a számításokat
+5. Két szám összeadása
+6. Zárójelekkel prioritás egyértelműsítése
+7. Összeszorzás egy harmadik számmal
+8. "=" gomb megnyomása
+9. Kifejezés kiértékelése
+10. Használat folytatása meghatározatlan ideig
+11. Kilépés
+
