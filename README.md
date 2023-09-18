@@ -77,7 +77,34 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 
 # Funkcionális specifikáció
 
-## Rendszer céljai
+# Funkcinális Specifikáció
+
+## A rendszer céljai és nem céljai
+
+A rendszer célja egy egyszerű számológép funkcionalitásának megvalósítása webes felületen
+Célunk az alábbiak biztosítása:
+ + Egy egyszerű kezelőfelület
+ + Alapműveletek:
+ +     Összeadás
+ +     Kivonás
+ +     Szorzás
+ +     Osztás
+ + Regisztráció lehetősége a korábbi számolások későbbi megőrzéséhez
+ + Egy adatbázis segítségével korábbi számolásokhoz hozzáférés
+ + Műveletek végzése akár 12 számjegy hosszúságú számokkal
+
+A rendszernek NEM célja az alábbiak biztosítása:
++ Bonyolultabb matematikai műveletek:
++     Hatványozás
++     Gyökvonás
++     Szumma
++     Produktum
++ Egyenletmegoldó algoritmus
++ Előfizetések regisztrált felhasználóknak
++ Kihalóban lévő állatfajok megmentése
++ Technológiai szingularitás elérése
+
+## Használati esetek
 - Adott műveletsor elvégzése matematikai szabályoknak megfelelően.
 - Összeadás, kivonás, szorzás és osztás.
 - Zárójelek használatának értelmezése.
