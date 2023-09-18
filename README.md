@@ -60,6 +60,14 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 # Fogalomszótár
 
 - Művelet: Egy függvény, ami két számot képez egy számmá.
+- Összeadás: A legalapvetőbb művelet az összeadás, amelyben a tagokat összeadandóknak míg az eredményt összegnek nevezzük. Az összeadás jele a + (plusz jel). 
+  Az összeadás komutatív és asszociatív, vagyis a tagok felcserélhetők illetve csoportosíthatók.
+- Kivonás: A kivonás az összeadás megfordítása. A kivonás jele a — (mínusz jel). Az $${\displaystyle a-b=c}$$ kifejezésben a a kisebbítendő, b a kivonandó és c a különbség.
+  A kivonás se nem komutatív és se nem asszociatív.
+- A szorzás vagy sokszorozás, a számtani alapműveletek egyike. A szorzás jele a x (kereszt) vagy · (pont). Az algebrában mindkettőt elhagyják, míg a programnyelvekben a jele a * (csillag). A tényezőket (tagokat) szorzónak illetve szorzandónak, míg az eredményt szorzatnak nevezzük.
+  A szorzás komutatív $${\displaystyle a\cdot b=b\cdot a}$$, asszociatív $${\displaystyle (a\cdot b)\cdot c=a\cdot (b\cdot c)}$$ és disztributív az összeadásra illetve a kivonásra.
+- Az osztás a szorzás fordítottja, melynek a jele a : (kettőspont) vagy tört formában kifejezve a — (törtjel). Az $${\displaystyle {\frac {a}{b}}=c}$$ kifejezésekben a az osztandó, b az osztó és c a hányados.
+  Az osztás nem kommutatív és nem asszociatív, de jobbról disztributív az összeadásra és a kivonásra. 
 - Magasabb rendű művelet: A műveletek sorrendjét határozza meg.
 - Gomb: A GUI egy építőeleme, amivel interakcióba lehet lépni a számológéppel.
 - Kijelző: A GUI egy építőelem, ahol a pillanatnyi számolás jelenik meg.
