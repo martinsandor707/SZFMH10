@@ -115,3 +115,10 @@ A rendszernek NEM célja az alábbiak biztosítása:
   - Helyes kifejezés esetén megadja az értéket
   - Ezek után a kifejezés értéke mentésre kerül a historyba
   - Minden egyes újraindítás után a history nullázódik
+
+## Képernyőterv
+- Egy tipikus számológép egy kijelzővel felül.
+- 0-tól 9-ig a számok
+- 4 alapművelet és az "=" jel
+- Számolási előzmények jobb oldalt, folyamatosan frissül
+- TODO: Kép, amikor már van kész gui xd
