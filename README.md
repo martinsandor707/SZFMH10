@@ -85,20 +85,20 @@ A rendszer célja egy egyszerű számológép funkcionalitásának megvalósít�
 Célunk az alábbiak biztosítása:
  + Egy egyszerű kezelőfelület
  + Alapműveletek:
- +     Összeadás
- +     Kivonás
- +     Szorzás
- +     Osztás
+     + Összeadás
+     + Kivonás
+     + Szorzás
+     + Osztás
  + Regisztráció lehetősége a korábbi számolások későbbi megőrzéséhez
  + Egy adatbázis segítségével korábbi számolásokhoz hozzáférés
  + Műveletek végzése akár 12 számjegy hosszúságú számokkal
 
 A rendszernek NEM célja az alábbiak biztosítása:
 + Bonyolultabb matematikai műveletek:
-+     Hatványozás
-+     Gyökvonás
-+     Szumma
-+     Produktum
+    + Hatványozás
+    + Gyökvonás
+    + Szumma
+    + Produktum
 + Egyenletmegoldó algoritmus
 + Előfizetések regisztrált felhasználóknak
 + Kihalóban lévő állatfajok megmentése
