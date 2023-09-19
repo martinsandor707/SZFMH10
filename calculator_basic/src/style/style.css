@@ -1,23 +1,25 @@
 table {
     width: 100%;
+    font-size: x-large;
 }
 
 .app {
-    background-color: grey;
+    background-color: rgb(175, 235, 240);
 }
 
 .calculator-display {
     text-align: center;
-    background-color: white;
+    background-color: rgb(175, 235, 240);
     border-radius: 1em;
     height: 5em;
     width: 100%;
+    font-size: medium;
 }
 
 .history-item {
     text-align: center;
-    background-color: aliceblue;
-    margin: 1 0 0 0;
+    background-color: rgb(255, 255, 255);
+    margin: 0.75em 0 0 0;
     padding: 0;
     border-radius: 1em;
     width: 100%;
@@ -25,11 +27,13 @@ table {
 
 button {
     width: 100%;
-    height: 10em;
+    height: 5em;
     margin: 0;
     padding: 0;
     background-color: aliceblue;
-    border: black solid
+    border: black solid;
+    border-radius: 1em;
+    font-size: x-large;
 }
 
 td {
@@ -39,5 +43,6 @@ td {
 }
 
 .history-column {
+    padding: 3em 0.5em 0 1em;
     width: 5em;
 }

@@ -4,11 +4,13 @@
 */
 
 export class Controller {
+    counter = 0
+
     handleInput(state, key) {
         return {
             ...state,
             title: state.title + 'a',
-            history: [...state.history, 1]
+            history: [...state.history, this.counter++]
         };
     }
 }
