@@ -77,8 +77,6 @@ Semmi, a termék még nem létezik, de a jelenlegi helyzet mechanikus megoldása
 
 # Funkcionális specifikáció
 
-# Funkcinális Specifikáció
-
 ## A rendszer céljai és nem céljai
 
 A rendszer célja egy egyszerű számológép funkcionalitásának megvalósítása webes felületen
