@@ -14,7 +14,7 @@ A projekt elkészítésében négy ember vesz részt, mi vagyunk
 + [Danka József Dániel](https://github.com/Xhepton)
 + [Lélek Hunor Kadosa](https://github.com/LHKadosa)
 + [Sándor Martin Tibor](https://github.com/martinsandor707)
-+ [Tóth Kristóf](https://github.com/kristof01124)
++ [Tóth Kristóf Imre](https://github.com/kristof01124)
 
 A projekt elkészítésére és teljes dokumentálására 3 hetünk van. A munka ***2023. 09. 04***-én vette kezdetét, a kész terméket pedig ***2023. 09. 25***-én kell bemutatnunk.
 
@@ -36,18 +36,22 @@ A projekt elkészítésére és teljes dokumentálására 3 hetünk van. A munka
 + Danka József Dániel
     + Javascript fejlesztő
     + Adatbázis-szakértő
+    + Adatbázis implementáció
     + Dokumentáció írása, rendszerezése
 + Lélek Hunor Kadosa
     + Javascript fejlesztő
     + SRE
+    + Model implementáció
     + Dokumentáció írása, rendszerezése
 + Sándor Martin Tibor
     + Javascript fejlesztő
     + Scrum Master
+    + Controller implementáció
     + Dokumentáció írása, rendszerezése
-+ Tóth Kristóf
++ Tóth Kristóf Imre
     + Javascript fejlesztő
-    + UI designer
+    + UI design + implementáció
+    + Elmélyült javascript tapasztalat megosztása a csapat többi tagjával
     + Dokumentáció írása, rendszerezése
  
 Ezen felül egyetemi oktatónk Dr. Kusper Gábor tölti be a Megrendelői/felügyelői szerepet, ugyanis a projekt önmagán túlmutató célja az, hogy megtanuljuk alkalmazni a modern szoftverfejlesztési módszertanokat.
@@ -66,11 +70,37 @@ Tanár Úr felelőssége ennek megfelelően a projekt haladásának követése, 
 ## Követelmények
 ### Funkcionális követelmények
 A frontend elkészítéséhez a
+
 + HTML
 + CSS
 + Javascript
 
-nyelveket használjuk, míg a backendhez kizárólag Javascriptet
+nyelveket használjuk, míg a backendhez ahol csak lehet Javascriptet.
+A frontendnél részben a hagyományos számológép kinézetét igyekezzük emulálni, azonban a webes felületet kihasználva a számológép mellett megmutatjuk a regisztrált felhasználó history-ját,
+azaz az adatbázisban az ő nevéhez szólóan elmentett üzenetek közül a legfrissebb 50-et.
+Az előbb említett adatbázis egy SQL alapú relációs adatbázis lesz, aminek ER diagramja itt található:
+
+![ER Diagram](https://github.com/martinsandor707/SZFMH10/blob/main/Rendszerterv/ER_Diagram.png)
+
+Az adatbázis típusa és a táblák konkrét felépítése a fejlesztés során még változhat, ezért ezt a bekezdést a későbbiekben még frissítjük.
+Az alkalmazás az Model-View-Controller (MVC) Architektúrát követi, és ehhez mérten osztjuk fel a felelősségeinket. További nem szakmai követelményleírásokat a funkcionális specifikációban lehet megtalálni, amit 
+ebben a dokumentumban a "Rendszer céljai" fejezetnél be is linkeltünk.
+
+### Nemfunkcionális követelmények
+Mivel egyetemi példaprojektről van szó, így nyílvánvalóan nem valós adatokkal dolgozunk, így megelégszünk az alábbi szerény követelményekkel:
+
+Futásidejű követelmények:
++ A felhasználók személyes adatait elég titkosítatlanul tárolni
++ Az alkalmazás ne tartalmazzon nyílvánvaló hibákat amik rosszindulatú használatra adnának lehetőséget akár a szerveren, akár a felhasználó gépén
++ Az alkalmazás kényelmes gyorsasággal reagáljon bármilyen tervezett funkció használatba vételekor
+
+Evolúciós követelmények:
++ A fejlesztés során írt kódhoz tartozzon ésszerű mennyiségű egységteszt, legalább 80%-os kódlefedettséggel
++ SOLID alapelvek betartása
++ Interfacek interfacek interfacek
+
+### Törvényi előírások, szabványok
+A projektet soha nem szándékozzuk valós felhasználók kezébe adni, de ha mégis ez lenne a helyzet, akkor az európai GDPR lenne az adatkezelési irányadó.
 
 ## Funkcionális terv
 
