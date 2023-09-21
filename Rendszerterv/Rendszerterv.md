@@ -116,6 +116,23 @@ A projektet soha nem szándékozzuk valós felhasználók kezébe adni, de ha m�
 
 ## Tesztterv
 
+Célok és célkitűzések :
+
+A számológépnek be kell tartania a matematikai szabályokat és a műveleteket pontosan el kell végeznie. Biztosítania kell, hogy az előre meghatározott maximális számjegy hosszú számok ne terheljék túl a memóriát és ne okozzanak hibákat. A felhasználói felület mindig valós időben kell a legfrissebb állapotot mutatnia. Az adatbázis pontosan kell tárolja és szükség esetén elmentenie illetve elküldenie a számítási előzményeket.
+
+Tesztelendő funkciók és követelmények :
+
+Szükséges tesztelni mind a 4 műveletet elvégző függvényeket. Ezeket kis és nagy számokkal, negatív értékekkel, null értékkel és nem számok esetében.
+A felhasználói felületen minden gomb el kell küldje az aktuális számológép állapotot a controllernek, az tovább kell küldje az adatbázisba mentés céljára, illetve a funkcionalításnak számítási célokkal.Ezek után a controller visszakéri a funkcionalítástól az eredényt és ábrázolnia is kell a felületen. Az adatbázis vissza kell utasítson minden nem helyes formában megadott adatot
+
+Tesztstratégia : 
+
++ A funkcionális tesztek a négy alapművelet helyes működését ellenőrzi, annak matematikai szabályainak helyes betartását.
++ A felhasználói felület tesztek a grafikus felület valós idejű és valós ábrázolást kell biztosítsanak, a gombok a hozzájuk tartozó eljárásokat kell elindítsák
++ A memória terhelése során ellenőrizzük, hogy a maximálisan megengedett számjegyeket képes-e eltárolni.
++ A kompatibilitás tesztek során ellenőrizzük hogy különböző böngészőkkel és különböző képfelbontással is működik minden funkció.
++ Tesztelésre unitteszteket és manuális teszteket fogunk használni. Manuálisan csak a különböző böngészőket és képfelbontásokat kell tesztelni, minden más tesztelendő funkciókat képesek leszünk unittesztekkel tesztelni.
+
 ## Telepítési terv
 
 ## Karbantartási terv
