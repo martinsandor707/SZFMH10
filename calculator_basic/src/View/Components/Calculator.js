@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CalculatorButton } from "./CalculatorButton.js"
-import { Keys } from "../Model/model.js"
+import { Keys } from "../../Model/Keys.js"
 import { History } from "./History.js"
 
 export function Calculator(props) {
