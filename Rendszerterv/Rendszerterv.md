@@ -67,6 +67,26 @@ Tanár Úr felelőssége ennek megfelelően a projekt haladásának követése, 
 1. Rendszerterv elkészülése. A projekt méretét tekintve az idáig való eljutás azt jelenti hogy nagyjából félúton vagyunk, ideje összeülni még utoljára összeülni és megbeszélni hogy ki mit és hogyan fog implementálni
 2. Projekt elkészülése. Ideje bármiféle utolsó simítást elvégezni, majd Szeptember 25-én bemutatni a projektet.
 
+## Üzleti folyamatok modellje
+ 1. Indulás:
+A felhasználó betölti a webes számológépet, ami rácsatlakozik az adatbázisra
+
+ 2. Számítás:
+A felhasználó megadja a számológépnek a kívánt matematikai műveletet, illetve a két számolandó számot.
+Input tehát a művelet és a két szám.
+Kimenet a művelet eredménye.
+A művelet elvégzése előtt egy döntési pont során a webalkalmazás ellenőrzi a bemeneti adatok helyességét.
+
+ 3. Eredmény megjelenítése:
+A webalkalmazás megjeleníti a számítás eredményét a felhasználó számára
+
+ 4. Eredmény mentése az adatbázisba:
+A webalkalmazás az eredményt elmenti az adatbázisba a felhasználó azonosítója alapján, hogy nyomon követhessék a kiszámított műveleteket
+A bemenet a felhasználó azonosítója, a művelet típusa, a számok és az eredmény.
+
+ 5. Vége:
+A folyamat véget ér, és a felhasználó további műveleteket végezhet vagy kiléphet a programbol.
+
 ## Követelmények
 ### Funkcionális követelmények
 A frontend elkészítéséhez a
