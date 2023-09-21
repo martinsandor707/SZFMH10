@@ -108,6 +108,18 @@ A projektet soha nem szándékozzuk valós felhasználók kezébe adni, de ha m�
 
 ## Absztrakt domain modell
 
+Domainspecifikáció, fogalmak:
++ Felhasználók: Az alkalmazás felhasználói, akik használják a weben működő számológépet.
++ Webalkalmazás: A webalkalmazás, amely lehetővé teszi a felhasználók számára a számológép használatát.
++ Műveletek: Az alapműveletek (összeadás, kivonás, szorzás, osztás), amelyeket a felhasználók a számológépen elvégezhetnek.
++ Eredmények: A műveletek végrehajtásának eredményei.
++ Adatbázis: Az adatbázis, amelyben az alkalmazás minden felhasználó által kiszámolt műveletet elment.
+
+Absztrakt komponensek, ezek kapcsolatai:
++ Kapcsolatok: A webalkalmazás kapcsolatot tart fenn a felhasználókkal és az adatbázissal. A felhasználók a műveletek végrehajtásához kommunikálnak a webalkalmazással, és az eredményeket az adatbázisban tárolják.
++ Működési elv: A webalkalmazás lehetővé teszi a felhasználók számára, hogy a műveletek típusát és számokat adjanak meg, majd elvégzi a kívánt műveletet és megjeleníti az eredményt. Az eredményeket az adatbázisban tárolják a felhasználó azonosítójával.
++ Adatáramlás: A felhasználók adatokat (műveletek típusa és számok) továbbítanak a webalkalmazásnak, amely végrehajtja a számításokat és eredményeket ad vissza. Az eredményeket az adatbázisba mentik.
+
 ## Architektúrális terv
 
 ## Adatbázisterv
