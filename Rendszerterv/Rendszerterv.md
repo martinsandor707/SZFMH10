@@ -167,6 +167,19 @@ Tesztstratégia :
 
 ## Telepítési terv
 
+### Nodejs Telepítése
+#### Windows felületen
++ https://nodejs.org/en/download
+#### Linux felületen
+##### telepítés:
+```
+sudo apt install nodejs
+```
+##### ellenörzés:
+```
+node -v
+```
+
 ## Karbantartási terv
 
 ### Karbantartási Folyamat
