@@ -168,3 +168,39 @@ Tesztstratégia :
 ## Telepítési terv
 
 ## Karbantartási terv
+
+### Karbantartási Folyamat
+> + A fejlesztői és rendszerüzemeltető csapat havonta tart rendszeres értekezleteket, ahol rögzítik a várható karbantartási feladatokat és azok prioritását.
+> + Az előre meghatározott időpontokban a rendszerkarbantartásért felelős csapat végzi a frissítéseket és az adatbázis karbantartását.
+> + Felhasználói visszajelzéseket és hibajelentéseket rendszeresen ellenőrzünk, és a fejlesztési csapat azok alapján módosítja és javítja a szolgáltatást.
+
++ Célnyelv: Magyar vagy Angol
++ Operációs rendszer és szerver szoftverek frissítése:
+    + Havonta egyszer
++ Víruskereső és biztonsági szoftverek frissítése:
+    + Hetente egyszer
++ Szerverek ellenőrzése és tisztítása:
+    + Hetente egyszer
++ Adatbázis rendszer teljesítményellenőrzése és optimalizálása:
+    + Havonta egyszer
++ Adattároló eszközök rendszeres ellenőrzése:
+    + Negyedévente egyszer
++ Felhasználói visszajelzések és hibajelentések elemzése:
+    + Heti egyszer
++ Adatbázis biztonsági mentések készítése:
+    + Hetente egyszer
++ Hibajavítások és új funkciók fejlesztése a felhasználói visszajelzések alapján:
+    + Heti egyszer
++ A végrehajtott karbantartások eredményeit és esetleges problémákat dokumentálják.
+### Biztonsági Mentés
++ Minden karbantartási tevékenység előtt automatikus biztonsági mentést készítünk a rendszer fontos adatairól,
+  hogy a hibák esetén azokat vissza lehessen állítani.
+### Dokumentáció és Jelentések
++ Minden karbantartási tevékenységről részletes dokumentációt készítünk, beleértve a végrehajtott feladatok leírását és a tapasztalt problémákat.
+  Ezen információk alapján rendszeres jelentéseket készítünk a vezetőség számára.
+### Ellenőrzés és Felülvizsgálat
++ A rendszerkarbantartás hatékonyságát és eredményeit rendszeresen ellenőrizzük és felülvizsgáljuk,
+  és szükség esetén módosítjuk a tervet a javulás érdekében.
+
+	
+	
