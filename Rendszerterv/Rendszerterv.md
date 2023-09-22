@@ -179,6 +179,14 @@ sudo apt install nodejs
 ```
 node -v
 ```
+### Setup
+#### Projekthez szükséges package-k letöltése:
+```
+npm install
+```
+```
+npm start
+```
 
 ## Karbantartási terv
 
