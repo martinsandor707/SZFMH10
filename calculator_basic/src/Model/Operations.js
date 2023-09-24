@@ -1,5 +1,5 @@
 // Define a Operations interface
-const Operations = {
+export const Operations = {
     // Method for addition
     add: (a, b) => {
       if (typeof a === 'number' && typeof b === 'number') {
