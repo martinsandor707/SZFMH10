@@ -21,52 +21,52 @@ export function Calculator(props) {
             </tr>
             <tr>
                 <td>
-                    <CalculatorButton title="7" key={Keys.Seven} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="number" title="7" key={Keys.Seven} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="8" key={Keys.Eight} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="number" title="8" key={Keys.Eight} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="9" key={Keys.Nine} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="number" title="9" key={Keys.Nine} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="+" key={Keys.Plus} onClick={onClick}></CalculatorButton>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <CalculatorButton title="4" key={Keys.Four} onClick={onClick}></CalculatorButton>
-                </td>
-                <td>
-                    <CalculatorButton title="5" key={Keys.Four} onClick={onClick}></CalculatorButton>
-                </td>
-                <td>
-                    <CalculatorButton title="6" key={Keys.Six} onClick={onClick}></CalculatorButton>
-                </td>
-                <td>
-                    <CalculatorButton title="-" key={Keys.Minus} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="operator" title="+" key={Keys.Plus} onClick={onClick}></CalculatorButton>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <CalculatorButton title="1" key={Keys.One} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="number" title="4" key={Keys.Four} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="2" key={Keys.Two} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="number" title="5" key={Keys.Four} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="3" key={Keys.Three} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="number" title="6" key={Keys.Six} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="*" key={Keys.Multipliy} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="operator" title="-" key={Keys.Minus} onClick={onClick}></CalculatorButton>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <CalculatorButton className="number" title="1" key={Keys.One} onClick={onClick}></CalculatorButton>
+                </td>
+                <td>
+                    <CalculatorButton className="number" title="2" key={Keys.Two} onClick={onClick}></CalculatorButton>
+                </td>
+                <td>
+                    <CalculatorButton className="number" title="3" key={Keys.Three} onClick={onClick}></CalculatorButton>
+                </td>
+                <td>
+                    <CalculatorButton className="operator" title="*" key={Keys.Multipliy} onClick={onClick}></CalculatorButton>
                 </td>
             </tr>
             <tr>
                 <td colSpan={3}>
-                    <CalculatorButton title="=" key={Keys.One} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton id="equals" className="operator" title="=" key={Keys.One} onClick={onClick}></CalculatorButton>
                 </td>
                 <td>
-                    <CalculatorButton title="/" key={Keys.Multipliy} onClick={onClick}></CalculatorButton>
+                    <CalculatorButton className="opreator" title="/" key={Keys.Multipliy} onClick={onClick}></CalculatorButton>
                 </td>
             </tr>
         </table >
