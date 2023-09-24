@@ -181,7 +181,8 @@ node -v
 ```
 
 ### 2. Docker Desktop Telepítése:
-https://www.docker.com/products/docker-desktop/
+1. https://www.docker.com/products/docker-desktop/
+2. (ha kell):
 ```
 wsl --update
 ```
@@ -191,7 +192,7 @@ wsl --update
 ```
 npm install
 ```
-+ Docker-nek futnia kell a háttérben (akár vendégként)
+#### Docker-nek futnia kell a háttérben (akár vendégként)
 ```
 docker run -d -p 4000:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:22.0.3 start-dev
 ```
