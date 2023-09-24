@@ -3,14 +3,19 @@ import { Calculator } from './View/Components/Calculator'
 import { Controller } from './Controller/Controller';
 import "./View/style/style.css"
 
-function App() {
-  return (
-    <div className='app'>
-      <Calculator state={{ title: '', history: [] }} controller={new Controller()}>
+import Public from "./Components/Public";
+import Protected from "./Components/Protected";
 
-      </Calculator>
-    </div >
-  );
+import useAuth from "./Hooks/useAuth";
+
+function App() {
+
+    const isLogin= useAuth();
+
+    console.log(isLogin);
+
+    // return <Public />;
+  return isLogin ? <Protected /> : <Public />;
 }
 
 export default App;
