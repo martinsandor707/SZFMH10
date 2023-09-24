@@ -167,7 +167,7 @@ Tesztstratégia :
 
 ## Telepítési terv
 
-### Nodejs Telepítése
+### 1. Nodejs Telepítése
 #### Windows felületen
 + https://nodejs.org/en/download
 #### Linux felületen
@@ -179,14 +179,33 @@ sudo apt install nodejs
 ```
 node -v
 ```
-### Setup
+
+### 2. Docker Desktop Telepítése:
+https://www.docker.com/products/docker-desktop/
+```
+wsl --update
+```
+
+### 3. Setup
 #### Projekthez szükséges package-k letöltése:
 ```
 npm install
 ```
++ Docker-nek futnia kell a háttérben (akár vendégként)
+```
+docker run -d -p 4000:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:22.0.3 start-dev
+```
+1. localhost:4000
+2. admin console -> admin:admin
+3. master->create realm->resource file beillesztése (json)
+
+### 4. projekt futtatása
 ```
 npm start
 ```
+1. localhost:3000
+2. bejelentkezés név:név (pl.: martin:martin)
+3. számolj
 
 ## Karbantartási terv
 
