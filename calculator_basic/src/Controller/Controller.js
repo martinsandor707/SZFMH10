@@ -1,3 +1,5 @@
+import { Operations } from "../Model/Operations";
+
 export class Controller {
     constructor() {
         this.display = document.getElementById("calculator-display");
